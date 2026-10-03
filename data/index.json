@@ -1,0 +1,15 @@
+{
+ "months": [
+  "2026-10"
+ ],
+ "kdf": {
+  "alg": "PBKDF2-SHA256",
+  "iter": 600000,
+  "salt": "Q/Pz9Inc7NXDJJsSpsbrcQ=="
+ },
+ "check": {
+  "v": 1,
+  "iv": "7p4Kr4RA+5mObNF1",
+  "ct": "7R3cR6KcalrOpeokEp3Jd3cBaDIRdcsWr0Lrhg=="
+ }
+}

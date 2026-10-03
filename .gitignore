@@ -1,0 +1,3 @@
+# Plans en clair : ne jamais les publier
+*.plain.json
+private/
