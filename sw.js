@@ -1,5 +1,5 @@
 // Meal prep à deux — service worker: app shell cache-first, monthly data network-first (falls back to cache offline).
-const VERSION = "v3";
+const VERSION = "v4";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icons/apple-touch-icon.png", "icons/icon-192.png", "icons/icon-512.png", "icons/favicon-32.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open("shell-" + VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
